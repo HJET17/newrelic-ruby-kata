@@ -33,7 +33,9 @@ gem 'httparty'
 gem 'dalli'
 gem 'memcachier'
 # New Relic
-
+gem 'newrelic_rpm'
+# Enable rack-cache
+gem 'rack-cache'
 # Fast production server
 gem 'puma'
 
